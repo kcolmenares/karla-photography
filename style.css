@@ -10,3 +10,22 @@ body{font-size:18px;line-height:1.7}header{height:132px;gap:35px}.brand{display:
 @media(max-width:1000px){header{padding:0 4%;gap:20px}.brand img{width:235px}nav{gap:22px;font-size:14px}.nav-contact{margin-left:0}.caption{flex-direction:column;gap:2px}.about{padding-left:7%;padding-right:7%}.about-copy>p:not(.eyebrow){font-size:17px}}
 @media(max-width:800px){header{height:112px}.brand img{width:225px}#menu{font-size:16px}nav{top:112px;font-size:18px}.hero-top{font-size:10px;max-width:65%}.hero-controls{top:65px}.hero-copy{bottom:95px}h1{font-size:clamp(65px,10vw,88px);letter-spacing:-1.8px}.hero-copy>p:not(.eyebrow){font-size:17px}.hero-bottom{font-size:9px}.intro{grid-template-columns:1fr}.intro>div{font-size:18px}.gallery{gap:45px 5%}.about-copy h2{font-size:50px}.experience h3{font-size:34px}.experience article p{font-size:16px}.contact h2{font-size:74px}.caption{font-size:15px}.filters{gap:24px}.filters button{font-size:15px}.modal-body h2{font-size:54px}.footer-brand{max-width:550px}}
 @media(max-width:500px){header{height:102px}.brand img{width:210px}nav{top:102px}.hero{min-height:610px}.hero-copy{bottom:90px;right:6%}h1{font-size:clamp(54px,12.7vw,64px);line-height:1.03;letter-spacing:-1.5px}.hero-copy>p:not(.eyebrow){font-size:16px;max-width:290px}.hero-top{font-size:9px;max-width:85%}.hero-bottom{font-size:8px}.eyebrow{font-size:11px}h2{font-size:54px}.about-copy h2{font-size:55px}.caption{flex-direction:column;font-size:16px}.caption>span:first-child{font-size:11px}.about-art{width:90%}.contact h2{font-size:62px}.form-row{grid-template-columns:1fr;gap:0}.contact>div>p:not(.eyebrow){font-size:18px}.experience h3{font-size:37px}.experience article p{font-size:17px}.interlude p{font-size:48px}.interlude span{font-size:10px}.footer-brand{max-width:380px}footer>div{font-size:10px;line-height:1.8}.hero-controls{top:63px}.hero-controls button{width:36px;height:36px}.hero-controls{font-size:10px}.filters button{min-height:44px}.modal-body h2{font-size:48px}}
+
+/* Use the editorial serif throughout the reading and navigation experience. */
+body{font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:500}
+nav{font-size:22px;line-height:1.2}
+#menu{font-family:inherit;font-size:21px}
+.intro>div,.about-copy>p:not(.eyebrow),.contact>div>p:not(.eyebrow){font-size:24px;line-height:1.5}
+.hero-copy>p:not(.eyebrow){font-size:24px;line-height:1.4}
+.filters button{font-size:23px}
+.caption{font-size:22px}.caption>span:first-child{font-size:15px}
+.experience article p{font-size:23px;line-height:1.5}
+.text-link,.light-link{font-size:22px}
+label{font-size:21px}input,select,textarea{font-size:22px}
+.submit{font-size:22px}.view,.close{font-size:21px}
+.demo-note,.form-note,#form-status,.credits{font-size:18px;line-height:1.5}
+.modal-body p:not(.eyebrow){font-size:23px;line-height:1.5}
+.eyebrow,.hero-top,.hero-bottom,.contact-location,.about-art span,.experience article>span,.interlude span,footer>div{font-family:Arial,sans-serif}
+@media(max-width:1000px){nav{font-size:20px}.about-copy>p:not(.eyebrow){font-size:23px}}
+@media(max-width:800px){nav{font-size:25px}#menu{font-size:22px}.intro>div{font-size:24px}.hero-copy>p:not(.eyebrow){font-size:22px}.caption{font-size:21px}.filters button{font-size:22px}.experience article p{font-size:22px}}
+@media(max-width:500px){.hero-copy>p:not(.eyebrow){font-size:22px;max-width:290px}.hero{min-height:650px}.about-copy>p:not(.eyebrow),.contact>div>p:not(.eyebrow){font-size:23px}.caption{font-size:22px}.caption>span:first-child{font-size:14px}.experience article p{font-size:23px}.demo-note,.form-note,#form-status,.credits{font-size:17px}}
