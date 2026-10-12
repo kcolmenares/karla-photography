@@ -29,3 +29,8 @@ label{font-size:21px}input,select,textarea{font-size:22px}
 @media(max-width:1000px){nav{font-size:20px}.about-copy>p:not(.eyebrow){font-size:23px}}
 @media(max-width:800px){nav{font-size:25px}#menu{font-size:22px}.intro>div{font-size:24px}.hero-copy>p:not(.eyebrow){font-size:22px}.caption{font-size:21px}.filters button{font-size:22px}.experience article p{font-size:22px}}
 @media(max-width:500px){.hero-copy>p:not(.eyebrow){font-size:22px;max-width:290px}.hero{min-height:650px}.about-copy>p:not(.eyebrow),.contact>div>p:not(.eyebrow){font-size:23px}.caption{font-size:22px}.caption>span:first-child{font-size:14px}.experience article p{font-size:23px}.demo-note,.form-note,#form-status,.credits{font-size:17px}}
+
+/* A graduation story closes the journal as a wide editorial photograph. */
+.story.graduation{grid-column:1/-1}.graduation .image-wrap{height:600px}.graduation .image-wrap img{object-position:center 42%}
+@media(max-width:800px){.graduation .image-wrap{height:440px}.filters{overflow-x:auto;white-space:nowrap}.filters button{flex-shrink:0}}
+@media(max-width:500px){.graduation .image-wrap{height:440px}.graduation .image-wrap img{object-position:center center}}
